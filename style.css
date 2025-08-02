@@ -5,10 +5,8 @@
 
 body {
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
 }
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -22,6 +20,7 @@ body {
     justify-content: space-between;
     width: 70%;
     padding: 24px;
+    margin-bottom: 48px;
 }
 
 .header-links a{
@@ -30,12 +29,20 @@ body {
     padding: 16px;
 }
 
-a{
+a {
     text-decoration: none;
 }
-
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .section-one {
     background-color: #1F2937; /* remember we need this for the footer */
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    height: 300px;
+}
+
+.left-elements {
+    width: 400px;
 }
 
 h1 {
@@ -52,4 +59,19 @@ h1 {
 button {
     background-color: #3882F6; /* remember this is the call to action background colour too */
     color: white;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 8px;
+}
+
+.image-placeholder {
+    color: white;
+    background-color: rgb(188, 188, 188);
+    width: 550px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
 }
