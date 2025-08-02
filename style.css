@@ -5,6 +5,33 @@
 
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 24px;
+}
+
+.header-links a{
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 16px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .section-one {
@@ -17,15 +44,9 @@ h1 {
     font-weight: 900;
 }
 
-.secondary-text,
-.header-link {
+.secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8
 }
 
 button {
