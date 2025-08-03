@@ -75,3 +75,20 @@ button {
     align-items: center;
     margin-left: 460px;
 }
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;   
+}
+
+.img-placeholder-2 {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.subtext2 {
+    color: #474e5d;
+}
