@@ -80,15 +80,32 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;   
+    margin-top: 32px;
+    margin-bottom: 48px;
+    text-align: center;
 }
 
 .img-placeholder-2 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 4px solid #3882F6;
     border-radius: 12px;
 }
 
 .subtext2 {
     color: #474e5d;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 150px;
+    text-align: center;
 }
