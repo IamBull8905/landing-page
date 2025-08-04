@@ -116,6 +116,10 @@ h2 {
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .section-three {
     background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-text {
@@ -123,9 +127,12 @@ h2 {
     font-weight: lighter;
     font-style: italic;
     font-size: 36px;
+    width: 800px;
 }
 
 .quoter {
     color: #1F2937;
     font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
