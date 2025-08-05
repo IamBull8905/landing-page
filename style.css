@@ -139,13 +139,20 @@ blockquote {
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .section-four {
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bar {
     background-color: #3882F6;
-    width: 800px;
+    width: 930px;
     height: 125px;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
 }
 
 .cta-text {
@@ -164,3 +171,4 @@ blockquote {
     border: 2px solid white;
     width: 125px;
 }
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
