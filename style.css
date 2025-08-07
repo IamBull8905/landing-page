@@ -38,7 +38,7 @@ a {
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .section-one {
-    background-color: #1F2937; /* remember we need this for the footer */
+    background-color: #1F2937; 
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .button1, .right-button {
-    background-color: #3882F6; /* remember this is the call to action background colour too */
+    background-color: #3882F6; 
     color: white;
     padding: 8px;
     border: 0;
